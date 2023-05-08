@@ -53,7 +53,7 @@ Mainly, this includes:
 [GSEA.r](GSEA.r) is an R script that utilizes `GSEABase` and `GSVR` to run ssGSEA.
 
 # rfe_environment.yml <a id='environment'></a>
-[rfe_environment.yaml](rfe_environment.yaml) is a YAML conda environment to easily reproduce the Python environment used to run [SVR_RFE.ipynb](SVR_RFE.ipynb).
+[rfe_environment.yml](rfe_environment.yml) is a YAML conda environment to easily reproduce the Python environment used to run [SVR_RFE.ipynb](SVR_RFE.ipynb).
 
 # SVR_RFE.html <a id='svr_rfe_html'></a>
 [SVR_RFE.html](SVR_RFE.html) is an HTML version of [SVR_RFE.ipynb](SVR_RFE.ipynb), created using [`nbconvert`](https://pypi.org/project/nbconvert/).
