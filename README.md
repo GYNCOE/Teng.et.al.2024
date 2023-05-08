@@ -13,7 +13,7 @@ This repository serves as a place to store relevant code and resources utilized 
 
 ---
 # data/ <a id='data'></a>
-This folder all of the data that is required to run the [SVR_RFE.ipynb](#SVR_RFE.ipynb) file.
+This folder all of the data that is required to run the [SVR_RFE.ipynb](SVR_RFE.ipynb) file.
 
 ---
 # figures/ <a id='figures'></a>
