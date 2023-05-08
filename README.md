@@ -40,7 +40,7 @@ This repository serves as a place to store relevant code and resources utilized 
         * ssGSEA
 
 # data/ <a id='data'></a>
-This folder all of the data that is required to run the [SVR_RFE.ipynb](SVR_RFE.ipynb) file.
+[data/](data/) holds all of the data that is required to run the [SVR_RFE.ipynb](SVR_RFE.ipynb) file.
 
 # figures/ <a id='figures'></a>
 [figures/](figures/) holds all the figures that are created by [SVR_RFE.ipynb](SVR_RFE.ipynb). 
@@ -50,10 +50,10 @@ Mainly, this includes:
 * HGSOC validation results
 
 # GSEA.r <a id='gsear'></a>
-R script that utilizes `GSEABase` and `GSVR` to run ssGSEA.
+[GSEA.r](GSEA.r) is an R script that utilizes `GSEABase` and `GSVR` to run ssGSEA.
 
 # rfe_environment.yml <a id='environment'></a>
-YAML conda environment to easily reproduce the Python environment used to run [SVR_RFE.ipynb](SVR_RFE.ipynb).
+[rfe_environment.yaml](rfe_environment.yaml) is a YAML conda environment to easily reproduce the Python environment used to run [SVR_RFE.ipynb](SVR_RFE.ipynb).
 
 # SVR_RFE.html <a id='svr_rfe_html'></a>
-HTML version of [SVR_RFE.ipynb](SVR_RFE.ipynb), created using [`nbconvert`](https://pypi.org/project/nbconvert/).
+[SVR_RFE.html](SVR_RFE.html) is an HTML version of [SVR_RFE.ipynb](SVR_RFE.ipynb), created using [`nbconvert`](https://pypi.org/project/nbconvert/).
