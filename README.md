@@ -1,10 +1,10 @@
-## Teng.et.al.2023
+## Teng.et.al.2024
 
 # ProteoMixture
 
 ### A software tool supporting prediction of tumor, stroma and immune cell admixture in bulk ovarian cancer tissue collections using protein-level abundance data.
 
-This repository serves as a place to store relevant code and resources utilized for the writing of the Teng et al 2023 manuscript, but mostly the recursive feature selection section. The [SVR_RFE.ipynb](SVR_RFE.ipynb) file can be run using the data provided in this repository. This file takes lists of protein candidates for 3 cell types (tumor, lymphocyte, stroma) ([data/admixture/protein candidates.xlsx](data/admixture/protein%20candidates.xlsx)) and uses recursive feature elimination (RFE) to reduce the number of proteins in each list while keeping as much predictive power as possible.
+This repository serves as a place to store relevant code and resources utilized for the writing of the [Teng et al 2024 manuscript published in iScience](https://www.cell.com/iscience/fulltext/S2589-0042(24)00419-X), but mostly the recursive feature selection section. The [SVR_RFE.ipynb](SVR_RFE.ipynb) file can be run using the data provided in this repository. This file takes lists of protein candidates for 3 cell types (tumor, lymphocyte, stroma) ([data/admixture/protein candidates.xlsx](data/admixture/protein%20candidates.xlsx)) and uses recursive feature elimination (RFE) to reduce the number of proteins in each list while keeping as much predictive power as possible.
 
 *NOTE:* `limma` analysis on pure tissue sample proteomics with logFC and p value cutoffs yielded the [initial protein candidates](data/admixture/protein%20candidates.xlsx), (adjusted and unadjusted p value < 0.05 for tumor and lymphocytes, unadjusted p value < 0.05 for stroma, fold change (FC) cutoff = 1.5 or LogFC cutoff = 0.585).
 
